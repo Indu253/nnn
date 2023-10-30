@@ -1,0 +1,89 @@
+.cointainer{
+    width: 450px;
+    
+    margin: 40px auto;
+    background-color: rgb(71, 1, 14);
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border: 3px solid gold;
+}
+.cc{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px 10px;
+    font-size: 25px;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    /* margin-bottom: 5px; */
+
+}
+.btn{
+    display: flex;
+     justify-content: space-between;
+    overflow: auto;
+    
+}
+button{
+     display: flex;
+     background-color: yellow;
+     color: black;
+     /* box-sizing: border-box; */
+     font-size: 25px;
+     width: fit-content;
+      margin-top: 25px; 
+     border-radius: 7px;
+     border: none;
+     outline: none;
+     padding: 5px;
+
+}
+   
+   
+   
+   
+   
+
+.out{
+    background-color: rgb(78, 77, 77);
+    padding: 10px 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 20px; 
+    border-radius: 9px;
+    font-size: 20px;
+    font-weight: 20px;
+}
+button:hover{
+    background-color: rgb(7, 248, 7);
+}
+.capital{
+    text-transform: uppercase;
+}
+.lower{
+    text-transform: lowercase;
+}
+.first{
+    text-transform: capitalize;
+}
+.bolder{
+    font-weight: bolder;
+}
+.italic{
+    font-style: italic;
+}
+.underline{
+    text-decoration: underline;
+}
+.orange{
+    color:orange
+    
+}
+@media(max-width:576px){
+
+    .cointainer{
+        width: auto
+    }
+}
